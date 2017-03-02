@@ -30,7 +30,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = RestApiApplication.class)
 @WebAppConfiguration
-public class UserRestControllerTest {
+class UserRestControllerTest {
 
     private static final String APPLICATION_JSON = "application/json;charset=UTF-8";
 

@@ -18,7 +18,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.PUT;
 
 @RestController
 @RequestMapping(path = "/users")
-public class UserRestController {
+class UserRestController {
 
     @Autowired
     private UserRepository userRepository;
